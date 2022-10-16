@@ -21,7 +21,7 @@ WriteLine($"[{String.Join(" ",array)}]");           //можно в параме
 int positiveSum=0;
 int negariveSum=0;
 
-foreach (var element in array)
+foreach (int element in array)
 {
     if(element>0)
     {
