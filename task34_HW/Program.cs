@@ -14,7 +14,6 @@ WriteLine($"[{String.Join(" ",array)}]");
 int evenNumbers=0;
 foreach (int element in array)
 {
-    //WriteLine(element%2);
     if(element%2==0)
     {
         evenNumbers++; 
