@@ -19,8 +19,8 @@ WriteLine($"[{String.Join(" ", array)}]");
 
 double maxValue = FindMax(array);
 double minValue = FindMin(array);
-double dif = maxValue - minValue;
-WriteLine($"Разница между max и min значением в массиве равна: {dif:f2}");
+double difference = maxValue - minValue;
+WriteLine($"Разница между max и min значением в массиве равна: {difference:f2}");
 
 double[] GetArray(int size, int minValue, int maxValue)
 {
