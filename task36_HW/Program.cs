@@ -19,7 +19,7 @@ int max = int.Parse(ReadLine()!);
 int[] positionArray = GetArray(length, min, max);
 WriteLine($"[{String.Join(" ", positionArray)}]");
 
-WriteLine($"Сумма элементов нечетных позиций в массиве: {sum}");
+
 
 int sum = SumOddNumbers(positionArray);
 
@@ -48,3 +48,4 @@ int SumOddNumbers(int[] positionArray)
     }
     return result;
 }
+WriteLine($"Сумма элементов нечетных позиций в массиве: {sum}");

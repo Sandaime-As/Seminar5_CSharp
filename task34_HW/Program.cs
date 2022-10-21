@@ -9,7 +9,7 @@ Write("Введите размер массива: ");
 int length=int.Parse(ReadLine()!);
 int[] array=GetArray(length);
 WriteLine($"[{String.Join(" ",array)}]");          
-WriteLine($"Колличество четных чисел в массиве: {evenNumbers}"); 
+
 
 int evenNumbers=0;
 foreach (int element in array)
@@ -19,7 +19,7 @@ foreach (int element in array)
         evenNumbers++; 
     }
 }
-
+WriteLine($"Колличество четных чисел в массиве: {evenNumbers}"); 
 
 int[] GetArray(int size)
 {
